@@ -4,8 +4,6 @@ import Rating from '../components/Rating';
 
 export default function EnterComment({ }) {
     const [rating, setRating] = useState(0)
-
-
     return (
         <ScrollView style={styles.container}>
             <View style={styles.ratingContainer}>

@@ -3,7 +3,6 @@ import { StyleSheet, Text, View, ScrollView } from 'react-native';
 import ButtonComponent from '../components/ButtonComponent';
 import TextInputComponent from '../components/TextInputComponent';
 
-// <MaterialCommunityIcons name="form-textbox-password" size={24} color="black" />
 export default function Login({ navigation }) {
 
   return (
