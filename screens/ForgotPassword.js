@@ -4,7 +4,6 @@ import ButtonComponent from '../components/ButtonComponent';
 import TextInputComponent from '../components/TextInputComponent';
 
 export default function Login({ navigation }) {
-
   return (
     <ScrollView showsVerticalScrollIndicator={false} style={{ backgroundColor: '#fff', }} contentContainerStyle={{ alignItems: 'center' }} >
       <View style={{ height: 50 }} />

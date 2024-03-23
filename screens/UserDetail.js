@@ -44,10 +44,7 @@ export default function UserDetail({ route }) {
             <View style={{ alignSelf: 'center' }}>
                 <Percentage />
             </View>
-
             <Comments />
-
-
             <View style={styles.centeredView}>
                 <Modal
                     animationType="slide"

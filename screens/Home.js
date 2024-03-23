@@ -35,7 +35,6 @@ export default function Home({ navigation }) {
     return (
         <View style={{ flex: 1, backgroundColor: '#fff' }}>
             <View style={{ height: 50 }} />
-          
             <FlatList
                 data={DATA}
                 key={(data) => Math.random().toString()}
