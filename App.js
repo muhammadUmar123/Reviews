@@ -27,7 +27,6 @@ export default function App() {
           <Stack.Screen name="ForgotPassword" component={ForgotPassword} />         
         </Stack.Navigator>
       </NavigationContainer>
-
     </SafeAreaView>
   );
 }

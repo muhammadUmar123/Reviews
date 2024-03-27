@@ -35,7 +35,9 @@ const styles = StyleSheet.create({
   forgottxt: {
     textAlign: 'right',
     right: '5%',
-    color: '#02a1b6',
+    // color: '#02a1b6',
+    color: '#3badfb',
+    
     fontWeight: '600'
   }
 })

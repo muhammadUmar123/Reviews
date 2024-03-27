@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
   welcomeTxt: {
     fontSize: 25,
     fontWeight: '700',
+    color:'#000',
     marginBottom: 20
   },
   forgottxt: {

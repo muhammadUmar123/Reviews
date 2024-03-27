@@ -26,9 +26,6 @@ export default function Home({ navigation }) {
                     'id': '3'
                 }
             ]
-
-
-
         })
     }
 

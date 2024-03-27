@@ -21,7 +21,7 @@ export default function UserDetail({ route }) {
                 </View>
             </View>
             <View style={{ height: 70 }} />
-            <View style={{ alignSelf: 'center', }}>
+            <View style={{ alignSelf: 'center' }}>
                 <Text style={styles.nameStyle}>{route.params.name}</Text>
                 <StaticRating onPress={(i) => { }} totalStatr={Array.from(Array(5).keys())} colorStar={route.params.rating} />
                 <Text style={styles.rating}>{route.params.rating} stars</Text>
@@ -51,7 +51,6 @@ export default function UserDetail({ route }) {
                     transparent={true}
                     visible={modalVisible}
                     onRequestClose={() => {
-                       
                         setModalVisible(!modalVisible);
                     }}
                 >
@@ -66,12 +65,11 @@ export default function UserDetail({ route }) {
                             <View style={{ width: '100%', marginTop: 10 }}>
                                 <Text style={{ fontSize: 12, fontWeight: '400', marginLeft: 10 }}>Your Reivew</Text>
                                 <View style={styles.txtContainer}>
-
                                     <TextInput style={{ margin: 10, flex: 1 }} multiline={true} placeholder='Enter Your Review' />
-
                                 </View>
                             </View>
                         </View>
+                        <ButtonComponent page='' action={(act) => navigation.replace(act)} btnstyle={''} btntext={'Add Review'} btntxtstyle={{ color: '#fff' }} />
                         <ButtonComponent page='' action={(act) => navigation.replace(act)} btnstyle={''} btntext={'Add Review'} btntxtstyle={{ color: '#fff' }} />
 
                     </TouchableOpacity>
