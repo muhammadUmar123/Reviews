@@ -8,9 +8,9 @@ export default function Login({ navigation }) {
     <ScrollView showsVerticalScrollIndicator={false} style={{ backgroundColor: '#fff', }} contentContainerStyle={{ alignItems: 'center' }} >
       <View style={{ height: 50 }} />
       <Text style={styles.welcomeTxt}> Forgot Password </Text>
-      <Text style={{ marginBottom: 20 }}> Having trouble in login! </Text>
+      {/* <Text style={{ marginBottom: 20 }}> Having trouble in login! </Text>
       <TextInputComponent placeholder={'Email'} image={require('../assets/email.png')} />
-      <ButtonComponent btntxtstyle={{ color: '#fff' }} page='Home' action={(act) => { }} btnstyle={''} btntext={'Send Request'} />
+      <ButtonComponent btntxtstyle={{ color: '#fff' }} page='Home' action={(act) => { }} btnstyle={''} btntext={'Send Request'} /> */}
     </ScrollView>
   );
 

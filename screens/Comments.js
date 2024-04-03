@@ -9,13 +9,13 @@ export default function App() {
     <SafeAreaView style={styles.container}>
     <ScrollView style={styles.container}>
       <Text style={styles.overall}>Overall Rating</Text>
-      <View style={styles.RatingContainer}>
+      {/* <View style={styles.RatingContainer}>
         <Text style={styles.RatingText}>4.0</Text>
         <View >
           <Rating totalStatr={Array.from(Array(5).keys())} colorStar={4}/>
           <Text style={styles.UserReview}>based on 23 reviews</Text>
         </View>
-      </View>
+      </View> */}
       <Percentage/>
       <View style={{borderBottomWidth:0.4,borderColor:'#d3d3d3'}}/>
       <Comments/>

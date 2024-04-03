@@ -69,8 +69,8 @@ export default function UserDetail({ route }) {
                                 </View>
                             </View>
                         </View>
-                        <ButtonComponent page='' action={(act) => navigation.replace(act)} btnstyle={''} btntext={'Add Review'} btntxtstyle={{ color: '#fff' }} />
-                        <ButtonComponent page='' action={(act) => navigation.replace(act)} btnstyle={''} btntext={'Add Review'} btntxtstyle={{ color: '#fff' }} />
+                        {/* <ButtonComponent page='' action={(act) => navigation.replace(act)} btnstyle={''} btntext={'Add Review'} btntxtstyle={{ color: '#fff' }} />
+                        <ButtonComponent page='' action={(act) => navigation.replace(act)} btnstyle={''} btntext={'Add Review'} btntxtstyle={{ color: '#fff' }} /> */}
 
                     </TouchableOpacity>
 

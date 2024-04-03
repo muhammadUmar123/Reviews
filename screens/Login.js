@@ -18,7 +18,7 @@ export default function Login({navigation }) {
       <View style={{ width: '100%', marginVertical: 10 }}>
         <Text onPress={() => navigation.navigate('ForgotPassword')} style={styles.forgottxt}>Forgot Password!</Text>
       </View>
-      <ButtonComponent page='Home' action={(act) => navigation.replace(act)} btnstyle={''} btntext={'Login'}  btntxtstyle={{ color: '#fff' }}/>
+      {/* <ButtonComponent page='Home' action={(act) => navigation.replace(act)} btnstyle={''} btntext={'Login'}  btntxtstyle={{ color: '#fff' }}/> */}
       <Text style={{ marginTop: 30 }}>Don't have an account <Text style={{ color: '#02a1b6', textDecorationLine: 'underline', }} onPress={() => navigation.navigate('Signup')}>Signup</Text> </Text>
     </ScrollView>
   );

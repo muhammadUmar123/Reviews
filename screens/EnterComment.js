@@ -6,10 +6,10 @@ export default function EnterComment({ }) {
     const [rating, setRating] = useState(0)
     return (
         <ScrollView style={styles.container}>
-            <View style={styles.ratingContainer}>
+            {/* <View style={styles.ratingContainer}>
                 <Text style={styles.seltext}> Select Rating </Text>
                 <Rating onPress={(i) => setRating(i + 1)} totalStatr={Array.from(Array(5).keys())} colorStar={rating} />
-            </View>
+            </View> */}
 
             <Text style={styles.ND}>Name</Text>
             <View style={{...styles.InputContainer,height:40}}>        

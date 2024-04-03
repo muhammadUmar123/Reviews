@@ -45,7 +45,7 @@ export default function Home({ navigation }) {
                                 <View style={{ marginBottom: 10, }}>
                                     <Text style={{ fontWeight: '700' }}>{item.name}</Text>
                                     <View style={{ right: 5, marginTop: 10 }}>
-                                        <StaticRating onPress={(i) => { }} totalStatr={Array.from(Array(5).keys())} colorStar={item.rating} />
+                                        {/* <StaticRating onPress={(i) => { }} totalStatr={Array.from(Array(5).keys())} colorStar={item.rating} /> */}
                                     </View>
                                 </View>
                                 <Text style={{ color: '#36454F' }}>{item.about.substring(0, 80)}. . .</Text>
