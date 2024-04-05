@@ -11,8 +11,8 @@ export default function MakeAccount ({navigation}){
                 {/* <Text style={{ fontSize: 25, textAlign: 'center', fontWeight: '700' }}>Reviews</Text> */}
                 {/* <Text style={{ textAlign: 'center', margin: 20, marginBottom: 40 }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a rhoncus arcu. Cras ante lectus, sagittis sit amet tortor eu, vestibulum consequat sem. Vivamus porttitor magna nec augue varius sodales.</Text> */}
                 {/*sdsds  */}
-                {/* <ButtonComponent page='Login' action={(act)=>navigation.navigate(act)} btnstyle={''} btntext={'Login'} btntxtstyle={{ color: '#fff' }} /> */}
-                {/* <ButtonComponent page='Signup' action={(act)=>navigation.navigate(act)} btnstyle={{ backgroundColor: '#fff' }}  btntext={'Signup'} /> */}
+                <ButtonComponent page='Login' action={(act)=>navigation.navigate(act)} btnstyle={''} btntext={'Login'} btntxtstyle={{ color: '#fff' }} />
+                <ButtonComponent page='Signup' action={(act)=>navigation.navigate(act)} btnstyle={{ backgroundColor: '#fff' }}  btntext={'Signup'} />
             </ScrollView>
         );
     

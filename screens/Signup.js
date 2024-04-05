@@ -14,9 +14,9 @@ export default function Signup({ navigation }) {
       </View>
       <Text style={{ marginBottom: 20 }}> Create your account </Text>
             
-      {/* <TextInputComponent placeholder={'Username'} image={require('../assets/user.png')} />
+      <TextInputComponent placeholder={'Username'} image={require('../assets/user.png')} />
       <TextInputComponent placeholder={'Email'} image={require('../assets/email.png')} />
-      <TextInputComponent placeholder={'Password'} ispassword={true} image={require('../assets/lock.png')} /> */}
+      <TextInputComponent placeholder={'Password'} ispassword={true} image={require('../assets/lock.png')} />
       <TextInputComponent placeholder={'Confirm password'} ispassword={true} image={require('../assets/lock.png')} />
       
       <Text style={{ textAlign: 'center', padding: 15 }}>By registering you are agreeing to our Terms of use and Privacy Policy </Text>
