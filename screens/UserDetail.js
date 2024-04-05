@@ -59,8 +59,8 @@ export default function UserDetail({ route }) {
                             <TouchableOpacity style={{alignSelf:'flex-end'}} onPress={()=> setModalVisible(!modalVisible)}>
                             <Image style={styles.closImg} source={require('../assets/close.png')} />
                             </TouchableOpacity>
-                            <Text style={styles.modalText}>Give Review</Text>
-                            <Text style={{ color: '#36454F', padding: 10 }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim diam eu lorem placerat efficitur. Praesent consequat et libero quis fringilla. </Text>
+                            {/* <Text style={styles.modalText}>Give Review</Text> */}
+                            {/* <Text style={{ color: '#36454F', padding: 10 }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim diam eu lorem placerat efficitur. Praesent consequat et libero quis fringilla. </Text> */}
                             <Rating onPress={(i) => setRating(i + 1)} totalStatr={Array.from(Array(5).keys())} colorStar={rating} />
                             <View style={{ width: '100%', marginTop: 10 }}>
                                 <Text style={{ fontSize: 12, fontWeight: '400', marginLeft: 10 }}>Your Reivew</Text>

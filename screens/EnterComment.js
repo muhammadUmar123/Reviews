@@ -15,13 +15,13 @@ export default function EnterComment({ }) {
             <View style={{...styles.InputContainer,height:40}}>        
                 <TextInput  style={{flex:1,paddingLeft:10}}/>
             </View>
-            <Text style={styles.ND}>Review</Text>
+            {/* <Text style={styles.ND}>Review</Text>
             <View style={styles.InputContainer}>  
                 <TextInput multiline={true} style={{flex:1,paddingHorizontal:10,marginTop:5}} />
-            </View>
+            </View> */}
 
             <TouchableOpacity style={{backgroundColor:'#4ca854',marginTop:20,padding:15,borderRadius:5}}>
-                <Text style={{color:'#fff',textAlign:'center',fontWeight:'bold'}}>Submit</Text>
+                {/* <Text style={{color:'#fff',textAlign:'center',fontWeight:'bold'}}>Submit</Text> */}
             </TouchableOpacity>
         </ScrollView>
     );

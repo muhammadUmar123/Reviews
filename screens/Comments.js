@@ -16,8 +16,8 @@ export default function App() {
           <Text style={styles.UserReview}>based on 23 reviews</Text>
         </View>
       </View> */}
-      <Percentage/>
-      <View style={{borderBottomWidth:0.4,borderColor:'#d3d3d3'}}/>
+      {/* <Percentage/> */}
+      {/* <View style={{borderBottomWidth:0.4,borderColor:'#d3d3d3'}}/> */}
       <Comments/>
     </ScrollView>
     </SafeAreaView>
